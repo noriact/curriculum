@@ -7,7 +7,7 @@ const data = {
     avatarOnClick:
       "https://images.unsplash.com/photo-1638937704385-eee8153b0970?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMyMjF8MHwxfHNlYXJjaHwxN3x8b3R0ZXJ8ZW58MHx8fHwxNzE0NzMzNjg0fDA&ixlib=rb-4.0.3&q=80&w=1080",
     aboutMe:
-      "I consider myself a person with a high level of adaptability and multidisciplinarity.I'm a passionate nosequénosecuánto with diverse educational background. I hold a Bachelor's degree in Business Administration, a Javascript Developer Certification and a Master in Marketing.",
+      "I consider myself a person with a high level of adaptability and multidisciplinarity.I'm a passionate person with diverse educational background. I hold a Bachelor's degree in Business Administration, a Javascript Developer Certification and a Master in Marketing.",
     education: {
       degree: "Bachelor of Business Administration",
       university: "Universidad Complutense de Madrid",
