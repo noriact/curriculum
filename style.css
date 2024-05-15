@@ -51,6 +51,7 @@ main {
 
 body {
   background-image: url(/puntitos.svg);
+  background-repeat: no-repeat;
   background-blend-mode: color-burn;
 }
 
