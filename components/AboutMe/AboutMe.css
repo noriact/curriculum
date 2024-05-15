@@ -56,7 +56,7 @@
 }
 
 .nori-picture {
-  background-image: url(../public/norita.jpg);
+  background-image: url(/norita.jpg);
 }
 
 .otter-picture {
