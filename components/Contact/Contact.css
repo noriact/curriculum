@@ -1,0 +1,22 @@
+.contact {
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.contact .title {
+    padding-bottom: 1rem;
+}
+
+.contact > ul {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .contact {
+    grid-column: 1/5;
+  }
+}

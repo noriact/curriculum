@@ -1,0 +1,55 @@
+:root {
+  --background: #dac0f0a2;
+  --heading: #272951;
+  --body: #5b589f;
+  --tittles: #4e2649;
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: var(--background);
+  color: var(--body);
+}
+
+a,
+h1,
+h2 {
+  color: var(--tittles);
+}
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+  letter-spacing: 4px;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: var(--body);
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  height: calc(100vh - 180px - 80px);
+  scroll-behavior: smooth;
+}
+
+.love-light-regular {
+  font-family: "Love Light", cursive;
+  font-style: normal;
+}

@@ -1,0 +1,64 @@
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    grid-column: 1/5;
+  }
+  
+  .aboutme > img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .aboutme > .rotate {
+    animation: rotate 1 3s;
+  }
+  
+  .aboutme > p {
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  .aboutme li {
+    padding: 2px 8px;
+    background-color: var(--body);
+    border-radius: 1rem;
+    color: var(--background);
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .aboutme > ul {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.avatar {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+
+.nori-picture {
+  background-image: url(../public/norita.jpg);
+}
+
+.otter-picture {
+  background-image: url(https://images.unsplash.com/photo-1638937704385-eee8153b0970?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1OTMyMjF8MHwxfHNlYXJjaHwxN3x8b3R0ZXJ8ZW58MHx8fHwxNzE0NzMzNjg0fDA&ixlib=rb-4.0.3&q=80&w=1080);
+}
